@@ -5,7 +5,7 @@ import AdminEmployees from './AdminEmployees';
 import AdminReports from './AdminReports';
 import { C, navStyle, activeTabStyle, inactiveTabStyle, footerStyle } from './theme';
 
-const API = 'https://tw1.su';
+const API = '';
 const now = () => new Date().toLocaleString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 
 export default function AdminDashboard({ user, onLogout }) {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 //const API = 'https://bb737bbar.tw1.su';
-const API = 'https://tw1.su';
+const API = '';
 const ICONS = ['📋', '🔥', '⚡', '🦺', '🏗️', '⚙️', '🧯', '🔧', '🛡️', '☢️'];
 const EMPTY_Q = { q: '', options: ['', '', '', ''], answer: 0 };
 const EMPTY_FORM = { title: '', icon: '📋', description: '', timeLimitMin: '', shuffleQuestions: false, shuffleOptions: false, questions: [{ ...EMPTY_Q, options: ['', '', '', ''] }] };

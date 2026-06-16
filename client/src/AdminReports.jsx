@@ -5,7 +5,7 @@ import autoTable from 'jspdf-autotable';
 import { C } from './theme';
 
 const hdrs = () => ({ Authorization: `Bearer ${localStorage.getItem('token')}` });
-const API = 'https://tw1.su';
+const API = '';
 
 export default function AdminReports() {
   const [stats, setStats] = useState([]);

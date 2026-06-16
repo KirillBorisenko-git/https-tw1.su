@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { C, navStyle, footerStyle } from './theme';
-const API = 'https://tw1.su';
+const API = '';
 const authHdr = () => ({ Authorization: `Bearer ${localStorage.getItem('token')}` });
 
 // Fisher-Yates shuffle returning new array

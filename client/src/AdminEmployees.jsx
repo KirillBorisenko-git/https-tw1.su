@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-const API = 'https://tw1.su';
+const API = '';
 const hdrs = () => ({ 'Content-Type': 'application/json', Authorization: `Bearer ${localStorage.getItem('token')}` });
 
 export default function AdminEmployees() {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-const API = 'https://tw1.su';
+const API = '';
 const TYPE_LABELS = { single: 'Один ответ', multiple: 'Несколько ответов', text: 'Текстовый ответ' };
 const TYPE_ICONS = { single: 'bi-record-circle', multiple: 'bi-check2-square', text: 'bi-pencil' };
 const TYPE_COLORS = { single: { bg: '#e8f0fe', color: '#1a73e8' }, multiple: { bg: '#e6f4ea', color: '#1e8e3e' }, text: { bg: '#f3e8ff', color: '#7c3aed' } };

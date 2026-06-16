@@ -4,7 +4,7 @@ import AdminDashboard from './AdminDashboard';
 import Landing from './Landing';
 import { C } from './theme';
 
-const API = 'https://tw1.su';
+const API = '';
 
 
 const POSITIONS = [
